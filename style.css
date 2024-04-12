@@ -7,6 +7,8 @@
 }
 
 
+
+
 ul{
     list-style-type: none;
 }
@@ -20,20 +22,20 @@ nav ul li > a{
     text-decoration: none;
 }
 
-a.uno{
-    position: absolute;
+li{
+    position: fixed;
+    z-index: 1;
     top: 2rem;
-    right: 2rem;
-}
-
-a.due{
-    top: 0;
     right: 0;
 }
 
-a.tre{
-    top: 0;
-    right: 0;
+nav{
+    position: relative;
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 main{
