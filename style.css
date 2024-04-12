@@ -39,7 +39,7 @@ nav{
 }
 
 main{
-    overflow: scroll;
+    overflow: auto;
 }
 section.primo-modello{
     position: relative;
@@ -49,7 +49,7 @@ section.primo-modello{
 
 .shoes-uno{
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -62,7 +62,7 @@ section.secondo-modello{
 
 .shoes-due{
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
