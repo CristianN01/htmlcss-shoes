@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+nav ul li > a{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    margin-right: 2rem;
+    padding: 0.9rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+a.uno{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+a.due{
+    top: 0;
+    right: 0;
+}
+
+a.tre{
+    top: 0;
+    right: 0;
+}
+
+main{
+    overflow: scroll;
+}
+section.primo-modello{
+    position: relative;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.shoes-uno{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.secondo-modello{
+    position: relative;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.shoes-due{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.third-modello{
+    position: relative;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.shoes-tre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yellow{
+    color: yellow;
+    font-size: 50px
+}
+
+.red{
+    background-color: red;
+}
+
+.green-bg{
+    background-color: green;
+}
+
+.yellow-bg{
+    background-color: yellow;
+}
+
+.green{
+    color: green;
+    font-size: 50px
+}
+
+h1{
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
